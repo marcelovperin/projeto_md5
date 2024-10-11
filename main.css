@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(175, 51, 51);
+    color: white;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+}
+
+.container a:hover {
+    background-color: rgb(233, 169, 169);
+    text-decoration: underline;
+}
+
+body, input, textarea {
+    font-family: "Rubik", sans-serif
+}
+
+header .container {
+    font-family: "Rubik", sans-serif;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .midlle-tittle {
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands-lists img {
+    height: 24px;
+}
+
+.times img {
+    height: 140px;
+    width: 480px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.nfl-img {
+    width: 60%;
+    height: 60%;
+}
+
+section {
+    padding: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-family: "PT Sans", sans-serif;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 1px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-met {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 160px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(160, 157, 157);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:rgb(134, 98, 98) ;
+}
+
+input:focus, textarea:focus {
+    outline-color: black;
+}
+
+footer {
+    background-color:rgb(175, 51, 51);
+    color: white;
+    padding: 16px 0;
+}
